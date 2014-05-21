@@ -5,8 +5,8 @@
 The code supposes that the modem is connected and has the IP
 192.168.1.1. Then you can do:
 
-  require 'hilink'
-  puts Hilink::Monitoring::status.inspect
+    require 'hilink'
+    puts Hilink::Monitoring::status.inspect
 
 which will return a hash of all variables that the stick can return.
 
