@@ -151,78 +151,10 @@ module Hilink
       end
 
       def send( str )
+        return :error => "Sorry, doesn't work!"
         send_request( "send", :content => str, :codeType => "CodeType" )
       end
     end
   end
 end
 
-#puts Hilink::USSD::send( "*100#" )
-#exit
-
-#puts Hilink::switch_to_debug
-#exit
-
-puts Hilink::Modem::switch_to_hilink
-exit
-
-puts Hilink::switch_to_modem
-exit
-
-puts Hilink::Dialup::connect
-puts Hilink::Dialup::disconnect
-exit
-
-
-#puts Hilink::SMS::send( "93999699", "hello there" )
-puts Hilink::SMS::list.inspect
-Hilink::SMS::list['Messages']['Message'].each{|m|
-  puts m.inspect
-  Hilink::SMS::delete( m['Index'] )
-}
-exit
-
-#puts Hilink::send_request( "device/information" )
-message = "Hello from Smileplug"
-=begin
-puts Hilink::send_request( "sms/send-sms", 
-{ :Index => -1, 
-  :Phones => ["93999699"],
-  :Sca => '',
-  :Content => message,
-  :Length => message.length,
-  :Reserved => 1,
-  :Date => Time.now.strftime('%Y-%m-%d %H:%M:%S') } )
-=end
-#puts Hilink::send_request( "monitoring/check-notifications" )
-#puts Hilink::send_request( "monitoring/status" )
-puts Hilink::send_request( "sms/sms-list",
-{ :PageIndex => 1,
-  :ReadCount => 20,
-  :BoxType => 1,
-  :SortType => 0,
-  :Ascending => 0,
-  :UnreadPreferred => 0 } )
-puts Hilink::send_request( "sms/delete-sms", { :Index => 20067 } )
-
-exit
-
-a = Document.new
-( a.add_element "Index" ).text = -1
-a.write $stdout
-
-exit
-
-url = 'http://192.168.1.1/api/monitoring/status'
-url = 'http://192.168.1.1/api/device/information'
-
-# get the XML data as a string
-xml_data = Net::HTTP.get_response(URI.parse(url)).body
-
-puts xml_data.inspect
-# extract event information
-doc = REXML::Document.new(xml_data)
-
-XPath.each( doc, "//response/*" ){|a|
-  puts a.inspect, a.text
-}
