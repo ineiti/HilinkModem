@@ -1,2 +1,4 @@
 *.gem
 test
+/RubyApplication8/nbproject/private/
+/nbproject/private/
