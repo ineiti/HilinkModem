@@ -2,3 +2,6 @@
 test
 /RubyApplication8/nbproject/private/
 /nbproject/private/
+.hg*
+.idea
+commit
