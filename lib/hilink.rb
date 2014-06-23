@@ -7,7 +7,7 @@ require 'helperclasses/hashaccessor'
 
 module Hilink
   extend self
-  using HelperClasses::HashAccessor
+  #using HelperClasses::HashAccessor
 
   def send_request( path, request = {} )
     url = "/api/#{path}"
