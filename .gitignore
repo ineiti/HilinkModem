@@ -5,3 +5,4 @@ test
 .hg*
 .idea
 commit
+.DS_Store
