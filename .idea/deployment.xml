@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="sp_local" deleteMissingItems="true">
+  <component name="PublishConfigData" autoUpload="Always" serverName="sp_local" deleteMissingItems="true">
     <serverData>
       <paths name="sp_home">
         <serverdata>
@@ -21,10 +21,13 @@
             <mapping deploy="/Network" local="$PROJECT_DIR$/../Network" web="/" />
             <mapping deploy="/QooxView" local="$PROJECT_DIR$/../QooxView" web="/" />
             <mapping deploy="/Gestion" local="$PROJECT_DIR$/../Gestion" web="/" />
+            <mapping deploy="/Profeda" local="$PROJECT_DIR$/../Profeda" web="/" />
+            <mapping deploy="/HuaweiModem" local="$USER_HOME$/RubymineProjects/HuaweiModem" web="/" />
           </mappings>
         </serverdata>
       </paths>
     </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
   </component>
 </project>
 

@@ -53,6 +53,10 @@ module Hilink
     def switch_to_hilink
       send_modem('AT^U2DIAG=119')
     end
+
+    def save_modem
+      send_modem('AT^U2DIAG=0')
+    end
   end
   module Monitoring
     extend self
