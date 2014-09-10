@@ -22,7 +22,8 @@
             <mapping deploy="/QooxView" local="$PROJECT_DIR$/../QooxView" web="/" />
             <mapping deploy="/Gestion" local="$PROJECT_DIR$/../Gestion" web="/" />
             <mapping deploy="/Profeda" local="$PROJECT_DIR$/../Profeda" web="/" />
-            <mapping deploy="/HuaweiModem" local="$USER_HOME$/RubymineProjects/HuaweiModem" web="/" />
+            <mapping deploy="/LibNet" local="$PROJECT_DIR$/../LibNet" web="/" />
+            <mapping deploy="/HuaweiModem" local="$PROJECT_DIR$/../HuaweiModem" web="/" />
           </mappings>
         </serverdata>
       </paths>
