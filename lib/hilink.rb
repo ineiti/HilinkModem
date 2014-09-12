@@ -166,7 +166,7 @@ module Hilink
 
     def send( str )
       return :error => "Sorry, doesn't work!"
-      send_request( "send", :content => str, :codeType => "CodeType" )
+      send_request( 'send', :content => str, :codeType => 'CodeType')
     end
   end
 end
