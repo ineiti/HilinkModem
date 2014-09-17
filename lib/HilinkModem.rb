@@ -5,7 +5,7 @@ require 'serialport'
 require 'helperclasses/hashaccessor'
 
 
-module Hilink
+module HilinkModem
   extend self
   #using HelperClasses::HashAccessor
 
