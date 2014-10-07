@@ -23,7 +23,8 @@
             <mapping deploy="/Gestion" local="$PROJECT_DIR$/../Gestion" web="/" />
             <mapping deploy="/Profeda" local="$PROJECT_DIR$/../Profeda" web="/" />
             <mapping deploy="/LibNet" local="$PROJECT_DIR$/../LibNet" web="/" />
-            <mapping deploy="/HuaweiModem" local="$PROJECT_DIR$/../HuaweiModem" web="/" />
+            <mapping deploy="/SerialModem" local="$PROJECT_DIR$/../SerialModem" web="/" />
+            <mapping deploy="/AfriCompta" local="$PROJECT_DIR$/../AfriCompta/" web="/" />
           </mappings>
         </serverdata>
       </paths>
