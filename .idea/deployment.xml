@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="melfi" deleteMissingItems="true">
+  <component name="PublishConfigData" autoUpload="Always" serverName="sp_local" deleteMissingItems="true">
     <serverData>
-      <paths name="melfi">
+      <paths name="sp_home">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/HelperClasses" local="$PROJECT_DIR$/../HelperClasses" web="/" />
+            <mapping deploy="/Hilink" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/Network" local="$PROJECT_DIR$/../Network" web="/" />
+            <mapping deploy="/QooxView" local="$PROJECT_DIR$/../QooxView" web="/" />
+            <mapping deploy="/Gestion" local="$PROJECT_DIR$/../Gestion" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="sp_local">
         <serverdata>
           <mappings>
             <mapping deploy="/HelperClasses" local="$PROJECT_DIR$/../HelperClasses" web="/" />
@@ -14,17 +25,6 @@
             <mapping deploy="/LibNet" local="$PROJECT_DIR$/../LibNet" web="/" />
             <mapping deploy="/SerialModem" local="$PROJECT_DIR$/../SerialModem" web="/" />
             <mapping deploy="/AfriCompta" local="$PROJECT_DIR$/../AfriCompta/" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="sp_home">
-        <serverdata>
-          <mappings>
-            <mapping deploy="/HelperClasses" local="$PROJECT_DIR$/../HelperClasses" web="/" />
-            <mapping deploy="/Hilink" local="$PROJECT_DIR$" web="/" />
-            <mapping deploy="/Network" local="$PROJECT_DIR$/../Network" web="/" />
-            <mapping deploy="/QooxView" local="$PROJECT_DIR$/../QooxView" web="/" />
-            <mapping deploy="/Gestion" local="$PROJECT_DIR$/../Gestion" web="/" />
           </mappings>
         </serverdata>
       </paths>
