@@ -1,0 +1,8 @@
+#!/bin/bash
+if [ ! "$1" ]; then
+  echo "No argument given"
+  exit 1
+fi
+
+ruby -I../lib/ -I../../HelperClasses/lib -I../../QooxView/libs/activesupport-3.1.1/lib \
+	-I../../QooxView/libs/i18n-0.6.0/lib $1
