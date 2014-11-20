@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="dp_man" deleteMissingItems="true" traceLevel="DETAILS" exclude=".svn;.cvs;.idea;.DS_Store;.git*;.hg*;nbproject">
+  <component name="PublishConfigData" serverName="sp_mas" deleteMissingItems="true" traceLevel="DETAILS" exclude=".svn;.cvs;.idea;.DS_Store;.git*;.hg*;nbproject">
     <serverData>
       <paths name="cu_bureau">
         <serverdata>
