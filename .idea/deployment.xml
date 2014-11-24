@@ -83,6 +83,20 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="virt_pro">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/HelperClasses" local="$PROJECT_DIR$/../HelperClasses" web="/" />
+            <mapping deploy="/HilinkModem" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/Network" local="$PROJECT_DIR$/../Network" web="/" />
+            <mapping deploy="/QooxView" local="$PROJECT_DIR$/../QooxView" web="/" />
+            <mapping deploy="/Gestion" local="$PROJECT_DIR$/../Gestion" web="/" />
+            <mapping deploy="/Profeda" local="$PROJECT_DIR$/../Profeda" web="/" />
+            <mapping deploy="/SerialModem" local="$PROJECT_DIR$/../SerialModem" web="/" />
+            <mapping deploy="/AfriCompta" local="$PROJECT_DIR$/../AfriCompta/" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
     </serverData>
   </component>
 </project>
