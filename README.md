@@ -15,6 +15,9 @@ which will return a hash of all variables that the stick can return.
 Please also see the much more complete PhP-implementation on
 [BlackyPanther/Huawei-HiLink](https://github.com/BlackyPanther/Huawei-HiLink).
 
+If you have the newer version which connects to 192.168.8.1, this library
+won't work for you, sorry.
+
 ## Commands
 
 Each command is a module inside of Hilink. There are different modules:
