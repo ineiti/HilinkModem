@@ -6,7 +6,12 @@ Gem::Specification.new do |s|
   s.description = 'Using the web-interface of huawei hilink modems to do things'
   s.authors     = ['Linus Gasser']
   s.email       = 'ineiti@linusetviviane.ch'
-  s.files       = %w(lib/hilinkmodem.rb README.md)
+
+  s.files         = `git ls-files -z`.split("\x0")
+  s.executables   = s.files.grep(%r{^bin/}) { |f| File.basename(f) }
+  s.test_files    = s.files.grep(%r{^(test|spec|features)/})
+  s.require_paths = ['lib']
+
   s.add_runtime_dependency 'activesupport', '~> 4.1'
   s.add_runtime_dependency 'serialport', '~> 1.3'
   s.homepage    = 'https://github.com/ineiti/HilinkModem'
