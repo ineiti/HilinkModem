@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name        = 'HilinkModem'
-  s.version     = '0.1.4'
-  s.date        = '2014-05-26'
+  s.version     = '0.2.0'
+  s.date        = '2015-04-06'
   s.summary     = 'Accessing Huawei HilinkModem modems'
   s.description = 'Using the web-interface of huawei hilink modems to do things'
   s.authors     = ['Linus Gasser']
