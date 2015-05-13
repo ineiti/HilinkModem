@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 LOAD_PATH.push %w( ../lib/ ../../HelperClasses/lib ../../QooxView/libs/activesupport-3.1.1/lib
 ../../QooxView/libs/i18n-0.6.0/lib )
-require 'hilinkmodem'
+require 'hilink_modem'
 
 puts HilinkModem::switch_to_modem
 sleep 10

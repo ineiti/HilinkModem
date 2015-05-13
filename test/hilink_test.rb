@@ -1,4 +1,4 @@
-require 'HilinkModem'
+require 'hilink_modem'
 
 #puts HilinkModem::USSD::send( "*100#" )
 #exit
