@@ -2,7 +2,7 @@ require 'net/http'
 require 'active_support/core_ext'
 require 'active_support'
 require 'serialport'
-require 'helperclasses/hashaccessor'
+require 'helper_classes/hashaccessor'
 
 
 module HilinkModem
