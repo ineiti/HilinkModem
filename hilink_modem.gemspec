@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.test_files    = s.files.grep(%r{^(test|spec|features)/})
   s.require_paths = ['lib']
 
-  s.add_runtime_dependency 'activesupport', '~> 3.1'
+  s.add_runtime_dependency 'activesupport', '~> 5.1'
   s.add_runtime_dependency 'serialport', '~> 1.3'
   s.homepage    = 'https://github.com/ineiti/HilinkModem'
   s.license       = 'GPLv3'
